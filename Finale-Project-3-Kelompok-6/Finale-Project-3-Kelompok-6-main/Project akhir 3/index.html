@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finale Project 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <!--Header Menu-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-white sticky-top" id="demo1Navbar">
+            <div class="container py-0" style="background-color: transparent; padding: 0px;" >
+                <div class="gambar">
+                    <img class="logo" src="./gambar/logo.svg" alt="">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul id="navbar" class="navbar-nav">
+                        <li>
+                            <a href="#home"><b>HOME</b></a>
+                        </li>
+                        <li>
+                            <a href="#about"><b>ABOUT</b></a>
+                        </li>
+                        <li>
+                            <a href="#service"><b>SERVICES</b></a>
+                        </li>
+                        <li>
+                            <a href="#portofolio"><b>PORTFOLIO</b></a>
+                        </li>
+                        <li>
+                            <a class="menu_contact_us" href="#contact"><b>CONTACT US</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!--Menu Home-->
+    <section id="home">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="jumbo_text"><b>We Create<br>Content that<br>ranks</b></p>
+                    <button class="jumbo_button" data-bs-toggle="modal" data-bs-target="#modalJumbo">SEE OUR WORKS</button>
+                </div>
+                <div class="col-sm-6">
+                    <img src="./gambar/jumbotron.svg" class="img-fluid" alt="banner">
+                </div>
+            </div>
+        </div>
+        <div class="modal-jumbotron">
+          <div class="modal fade" id="modalJumbo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Our Works</h1>
+                  <button type="button" class="btn-close hvr-icon hvr-buzz-out" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <br>
+                <br>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card" style="background-color: #EBF4FA; border: none; padding-left: 10px; padding-right: 10px; padding-top: 10px;">
+                        <img src="./gambar/popup_jumbo1.PNG" class="img-fluid mx-auto d-block" alt="appdev">
+                        <div class="text_popup_jumbo">
+                          <h3>Top Rental</h3>
+                          <button class="button_popup_jumbo"><a class="link_popup_jumbo" href="https://top-rental.netlify.app/" target="_blank">Kunjungi</a></button>
+                        </div>
+                        <br>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card" style="background-color: #EBF4FA; border: none; padding-left: 10px; padding-right: 10px; padding-top: 10px;">
+                        <img src="./gambar/popup_jumbo2.PNG" class="img-fluid mx-auto d-block" alt="appdev">
+                        <div class="text_popup_jumbo">
+                          <h3>Business Communication</h3>
+                          <button class="button_popup_jumbo"><a class="link_popup_jumbo" href="https://finalproject2-kel6.netlify.app/" target="_blank">Kunjungi</a></button>
+                        </div>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </section>
+
+    <!--Icon setengah lingkaran yang ada disamping-->
+    <div class="setengah_lingkaran">
+        <img src="./gambar/setengah_lingkaran.png">
+    </div>
+
+    <!--Menu About-->
+    <section id="about">
+    <div class="about" style="padding-top: 150px;">
+        <h1>About Us</h1>
+        <img src="./gambar/garis bawah.png" alt="">
+        <br>
+        <br>
+        <h5 class="text_about"><b>Website ini menyediakan berbagai macam layanan yang bergerak di bidang teknologi informasi,<br> seperti layanan App Development, layanan Website Development,<br>layanan UIUX Design dan lain-lain.</b></h5>
+    </div> 
+    </section>
+
+    <!--Menu Services-->
+    <section id="service">
+    <div class="service">
+        <div class="judul_service">
+            <h1>Our Valuable Service</h1>
+            <img src="./gambar/garis bawah.png" alt="">
+        </div>
+        <br>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               <div class="cards-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card first">
+                                <div class="gambar_service">
+                                    <img class="foto_service" src="./gambar/service1.svg">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>App Development</b></h5>
+                                    <br>
+                                    <p class="card-text">Kembangkan aplikasi berbasis mobile sesuai permintaan desain dan kebutuhan yang anda inginkan</p>
+                                    <br>
+                                    <button class="button_service" data-bs-toggle="modal" data-bs-target="#modalAppDev">READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card second">
+                                <div class="gambar_service">
+                                    <img class="foto_service" src="./gambar/service2.svg">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>Web Development</b></h5>
+                                    <br>
+                                    <p class="card-text">Kembangkan aplikasi berbasis website sesuai permintaan desain dan kebutuhan yang anda inginkan</p>
+                                    <br>
+                                    <button class="button_service" data-bs-toggle="modal" data-bs-target="#modalWebDev">READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card third">
+                                <div class="gambar_service">
+                                    <img class="foto_service" src="./gambar/service3.svg">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>UI UX Design</b></h5>
+                                    <br>
+                                    <p class="card-text">Rancang dan buat desain terbaik untuk memberikan pengalaman tak terbatas yang dapat anda rasakan</p>
+                                    <br>
+                                    <button class="button_service" data-bs-toggle="modal" data-bs-target="#modalUIUX">READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+              </div>
+              <div class="carousel-item">
+               <div class="cards-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card first">
+                                <div class="gambar_service">
+                                    <img class="foto_service" src="./gambar/service4.png">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>Data Science</b></h5>
+                                    <br>
+                                    <p class="card-text">Kumpulkan, analisa, dan teliti menyeluruh untuk membantu menarik kesimpulan yang anda inginkan</p>
+                                    <br>
+                                    <button class="button_service" data-bs-toggle="modal" data-bs-target="#modalData">READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card second">
+                                <div class="gambar_service">
+                                    <img class="foto_service" src="./gambar/service5.png">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>Cyber Security</b></h5>
+                                    <br>
+                                    <p class="card-text">Lindungi perangkat, jaringan, program, dan data anda dari ancaman dunia maya dan akses ilegal lainnya</p>
+                                    <br>
+                                    <button class="button_service" data-bs-toggle="modal" data-bs-target="#modalCyber">READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card third">
+                                <div class="gambar_service">
+                                    <img class="foto_service" src="./gambar/service6.png">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>Artificial Intelegence</b></h5>
+                                    <br>
+                                    <p class="card-text">Kembangkan alat yang dapat meniru perilaku atau melakukan tugas sesuai dengan perintah yang diberikan</p>
+                                    <br>
+                                    <button class="button_service" data-bs-toggle="modal" data-bs-target="#modalAI">READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+              </div>
+            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <div class="next">
+                  <i class="carousel-control-next-icon" aria-hidden="true"></i>
+                  <i class="visually-hidden">Next</i>
+                </div>
+              </button>
+        </div>
+
+        <!--Modal Bootstrap-->
+        <div class="modal-service">
+            <!--Modal Service 1-->
+            <div class="modal fade" id="modalAppDev" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">App Development</h1>
+                    <button type="button" class="btn-close hvr-icon hvr-buzz-out" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./gambar/service1.svg" class="img-fluid mx-auto d-block" alt="appdev">
+                    <br>
+                    <div class="text_popup_service">
+                        <h5>Kami Melayani :</h5>
+                        <p>1. Pembuatan aplikasi (sistem operasi android/iOS)</p>
+                        <p>2. Pengembangan aplikasi (sistem operasi android/iOS)</p>
+                        <p>3. Dan Lain-lain</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Modal Service 2-->
+            <div class="modal fade" id="modalWebDev" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Web Development</h1>
+                      <button type="button" class="btn-close hvr-icon hvr-buzz-out" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="./gambar/service2.svg" class="img-fluid mx-auto d-block" alt="appdev">
+                      <br>
+                      <div class="text_popup_service">
+                        <h5>Kami melayani :</h5>
+                        <p>1. Pembuatan Web Company Profile</p>
+                        <p>2. Pembuatan Web Sekolah/Instansi</p>
+                        <p>3. Pembuatan Web Toko Online</p>
+                        <p>4. Dan Lain-lain</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--Modal Service 3-->
+            <div class="modal fade" id="modalUIUX" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">UI UX Design</h1>
+                      <button type="button" class="btn-close hvr-icon hvr-buzz-out" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="./gambar/service3.svg" class="img-fluid mx-auto d-block" alt="appdev">
+                      <br>
+                      <div class="text_popup_service">
+                        <h5>Kami melayani :</h5>
+                        <p>1. Pembuatan Design UI UX Aplikasi Mobile</p>
+                        <p>2. Pembuatan Design UI UX Aplikasi Website</p>
+                        <p>3. Dan Lain-lain</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--Modal Service 4-->
+            <div class="modal fade" id="modalData" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Science</h1>
+                      <button type="button" class="btn-close hvr-icon hvr-buzz-out" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img id="pop_up_service" src="./gambar/service4.png" class="img-fluid mx-auto d-block" alt="appdev">
+                      <br>
+                      <div class="text_popup_service">
+                        <h5>Kami melayani :</h5>
+                        <p>1. Jasa Analisis Data</p>
+                        <p>2. Jasa Pengolahan Data</p>  
+                        <p>3. Dan Lain-lain</p>                  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--Modal Service 5-->
+            <div class="modal fade" id="modalCyber" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Cyber Security</h1>
+                      <button type="button" class="btn-close hvr-icon hvr-buzz-out" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img id="pop_up_service" src="./gambar/service5.png" class="img-fluid mx-auto d-block" alt="appdev">
+                      <br>
+                      <div class="text_popup_service">
+                        <h5>Kami melayani :</h5>
+                        <p>1. Perlindungan Terhadap Perangkat Anda</p>
+                        <p>2. Perlindungan Terhadap Jaringan Anda</p>
+                        <p>3. Perlindungan Terhadap Data Anda</p>
+                        <P>4. Dan Lain-lain</P>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--Modal Service 6-->
+            <div class="modal fade" id="modalAI" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Artificial Intelegence</h1>
+                      <button type="button" class="btn-close hvr-icon hvr-buzz-out" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img id="pop_up_service" src="./gambar/service6.png" class="img-fluid mx-auto d-block" alt="appdev">
+                      <br>
+                      <div class="text_popup_service">
+                        <h5>Kami melayani :</h5>
+                        <p>1. Pembuatan Dan Pengembangan Aplikasi Mobile Berkemampuan AI</p>
+                        <p>2. Pembuatan Dan Pengembangan Aplikasi Website Berkemampuan AI</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>       
+    </section>
+
+    <!--Menu Portofolio-->
+    <div class="ourworks" style="background-color: #020E35; margin-top: -220px;">
+        <section id="portofolio">
+        <div class="judul_ourworks">
+            <h1>Our Works</h1>
+            <img src="./gambar/garis bawah.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card" style="border: none;">
+                        <img src="./gambar/our_works1.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h1>TopRent | Rental Web</h1>
+                    <br>
+                    <h5>IOS | ANDROID | WEB DEVELOPMENT</h5>
+                    <br>
+                    <p>TopRent adalah singkatan dari Top Rental, merupakan sebuah perusahaan yang berdiri pada tahun 2010. TopRent merupakan sebuah perusahaan yang bergelut dibidang jasa, TopRent memberikan jasa penyewaan mobil dan sopir yang berlokasi di JL. Kampus Unimal Bukit Indah Blang Pulo, Kec. Muara Satu, Kabupaten Aceh Utara.</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="brand">
+                        <h1>Pangkalan Data Covid-19</h1>
+                        <br>
+                        <h5>IOS | ANDROID | WEB DEVELOPMENT</h5>
+                        <br>
+                        <p>Pangkalan data covid-19 ada sebuah website yang menyajikan informasi seputar Covid-19 dari seluruh Dunia. beberapa info yang didapat dari website pangkalan data ini adalah jumlah kasus aktif, kasus baru, sembuh, total kasus, total kematian, dan total tes.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card" style="border: none;">
+                        <img src="./gambar/our_works2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card" style="border: none;">
+                        <img src="./gambar/our_works3.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h1>Web Profil</h1>
+                    <br>
+                    <h5>IOS | ANDROID | WEB DEVELOPMENT</h5>
+                    <br>
+                    <p>Web Profil Adalah aplikasi berbasis website dan mobile yang memuat dan menampilkan data pribadi atau biodata seseorang tertentu yang biasanya digunakan sebagai daftar riwayat hidup atau tanda pengenal seseorang.</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="brand">
+                        <h1>Business Communication</h1>
+                        <br>
+                        <h5>IOS | ANDROID | WEB DEVELOPMENT</h5>
+                        <br>
+                        <p>Website sederhana bagi para pebisnis untuk berkomunikasi dengan pelanggan. Business communication mampu untuk menghadirkan bisnis Anda menjadi lebih komunikatif dengan pelanggan secara lebih efisien, dan membantu Anda mengembangkan bisnis.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card" style="border: none;">
+                        <img src="./gambar/our_works4.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="button_ourworks">
+                <button class="ourworks_button"><a class="link_button_ourworks" href="#portofolio"><b>SEE ALL WORK</b></a></button>
+            </div>
+        </div>
+        </section>
+    </div>
+    <br><br>
+
+    <!--Menu Contact Us-->
+    <div class="container">
+        <section id="contact" class="contact">
+          <div class="container my-5 parent">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-left about-left" ">
+                <div class=" d-flex ">
+                  <div class="row mx-5">
+                    <div class="col p-4 m-4">
+                        <h5 class="contact-text1">Questions, Comments, Concerns?</h5>
+                        <h1 class="contact-text2">We’d love to <span style="color: #E73587">hear</span> from you!</h1>                 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 about-right" >
+                <div class="container child-1">
+                  <div class="row">
+                    <form name="formContact"  onsubmit="return validateForm()">
+                      <div class="row">
+                        <div class="col-25" style="  margin-top: 35px;">
+                          <label for="email"><b>Your Email Address</b></label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-75">
+                          <input type="text" id="email" name="email"  placeholder="something@website.com" autocomplete="off">
+                        </div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="subject"><b>Subject</b></label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-75">
+                          <input type="text" id="subject" name="subject"  placeholder="Question about your article" autocomplete="off">
+                        </div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="message"><b>Message</b></label><br>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-75">
+                          <textarea name="message" id="message" rows="10" cols="30" style="height: 150px" placeholder="Your message starts with…"></textarea>
+                        </div>
+                      </div>   
+                      <div class="row">
+                        <div class="row">
+                          <input onclick="saveToLocalstorage()" type="submit" value="Send a Message"> 
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="container">
+                2020 © All rights reserved by Your company name
+            </div> 
+        </div>
+    </footer>
+
+
+    <script src="input.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

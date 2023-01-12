@@ -1,0 +1,259 @@
+/**Home**/
+.navbar{
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 70px;
+    position: absolute;
+}
+header img{
+    width: 80px;
+    height: 100px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 15px;
+    padding: 8px 10px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-image: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    color: white;
+}
+.menu_contact_us{
+    background-image: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    color: white;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.jumbotron{
+    margin-top: 70px;
+}
+.jumbo_text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.jumbo_button{
+    margin-left: 50px;
+    background-image: linear-gradient(to right, #E73587, #8C32F0);
+    border: none;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+}
+.jumbo_button:hover{
+    transform: scale(1.1);
+}
+.setengah_lingkaran{
+    position: absolute;
+    width: 276px;
+    height: 276px;
+    margin-top: 100px;
+}
+.text_popup_jumbo{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+.button_popup_jumbo{
+    border: none;
+    background-image: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+}
+.button_popup_jumbo:hover{
+    transform: scale(1.1);
+}
+.link_popup_jumbo{
+    color: white;
+    text-decoration: none;
+}
+.link_popup_jumbo:hover{
+    color: white;
+}
+@media screen and (min-width: 0px) and (max-width: 1150px) {
+    .setengah_lingkaran{
+        opacity: 0;
+    }
+}
+
+/**About**/
+.about{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text_about{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/**our valuable service**/
+.service{
+    margin-top: 150px;
+}
+.judul_service{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.slide .first{
+    background-color: #FDF8E3;
+}
+  
+.slide .second{
+  background-color: #F0F3FA;
+}
+
+.slide .third{
+  background-color: #FEEFF0;
+}
+.gambar_service{
+    text-align: center;
+}
+.foto_service{
+    width: 325px;
+    height: 320px;
+}
+.button_service{
+    border: none;
+    background-image: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button_service:hover{
+    transform: scale(1.1);
+}
+#pop_up_service{
+    width: 325px;
+    height: 320px;
+}
+.text_popup_service{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/**our works**/
+.ourworks{
+    margin-top: 100px;
+    padding-top: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.judul_ourworks{
+    padding-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.brand{
+    text-align: right;
+}
+.col-sm-6{
+    margin-bottom: 50px;
+}
+.button_ourworks{
+    text-align: center;
+}
+.ourworks_button{
+    background-image: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    border: none;
+    padding: 8px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-bottom: 50px;
+}
+.ourworks_button:hover{
+    transform: scale(1.1);
+}
+.link_button_ourworks{
+    color: white;
+    text-decoration: none;
+}
+.link_button_ourworks:hover{
+    color: white;
+}
+
+/**contact us**/
+.contact-text1{
+    color: #020E35;
+}
+.contact-text2{
+    border-radius: nullpx;
+    color: #020E35;
+    font-size: 60px;
+    font-weight: 400px;
+    line-height: 100px;
+    letter-spacing: 0px;
+    text-align: left;   
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.col-25 {
+    float: left;
+    width: 50%;
+    padding-top: 20px;
+}
+.col-75 {
+    float: left;
+    width: 85%;
+    margin-top: 6px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+::placeholder{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+input[type=submit] {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    color: white;
+    width: 100%;
+    margin-left: 11px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+} 
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-top: 5px;
+    padding-left: 12%;
+    background-color: #020E35;
+    color: white;
+}
+.slide button .next {
+    background: linear-gradient(90deg, rgba(231, 53, 135, 1) 0%, rgba(140, 50, 240, 1) 100%);
+    border-radius: 100%;
+    border: rgb(255, 255, 255) solid 2px;
+    color: rgb(255, 255, 255) !important;
+    padding: 23px 23px 20px 30px;
+    font-size: 15px;
+}
